@@ -7,7 +7,7 @@ Example:
 
 For given XML document:
 
-```
+```scala
   val html: Elem =
     <html>
       <head>
@@ -50,7 +50,7 @@ For given XML document:
 
 If we want to find an Xpath for element that contains an attribute "action" with value "/yourname" we can use following method:
 
-```
+```scala
   val xpath: String = XpathGenerator.createXPathForAttribute(html, "action", "/yourname")
 ```
 
