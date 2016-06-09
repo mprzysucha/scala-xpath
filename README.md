@@ -55,7 +55,8 @@ If we want to find an Xpath for element that contains an attribute "action" with
 ```
 
 The result will be:
-
-//div[@class='first']/div[@class='apply-external']/div[3]/form[1]/@action
+```
+  //div[@class='first']/div[@class='apply-external']/div[3]/form[1]/@action
+```
 
 
